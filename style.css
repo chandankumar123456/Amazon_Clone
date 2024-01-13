@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.nav-first {
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    background-image: url("Assets/amazon_logo.png");
+    width: 113px;
+    height: 50px;
+    background-size: cover;
+}
+.nav-add {
+    color: white;
+}
+.nav-add span{
+    font-size: 0.85rem;
+}
+.nav-add p {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.nav-search{
+    display: flex;
+    border: none;
+    border: 2px solid transparent;
+}
+.nav-search:hover{
+    border: 3px solid #ffbc69;
+}
+.nav-search select{
+    width: 3rem;
+    background-color: #ffffff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.nav-search input {
+    width: 55vw;
+    font-size: 1rem;
+}
+.nav-search i{
+    background-color: #ffbc69;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-sign-in{
+    color:white;
+}
+.nav-sign-in span{
+    font-size: 0.75rem;
+}
+.nav-sign-in p{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.nav-cart {
+    color: white;
+    font: 0.9rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.panel-all{
+    font-weight: 700;
+    margin: 20px;
+}
+.panel-deals{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.hero{
+    background-image: url("Assets/Hero-Img.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content .box{
+    padding: 20px;
+    width: 350px;
+    height: 420px;
+    margin-top: 20px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box a{
+    text-decoration: none;
+    bottom: 10px;
+    position: absolute;
+    color: #007185;
+}
+.box h2 {
+    font-size: 1.4rem;
+}
